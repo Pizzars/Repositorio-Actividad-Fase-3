@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedor{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: solid 2px rgb(26, 68, 102)
+}
+
+.menu img{
+    width: 10%;
+    margin: 1vw;
+}
+
+.opcionesMenu{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.opcionesMenu a{
+    font-size: 1.5vw;
+    padding: 0.5vw 1vw;
+	color: rgb(26, 68, 102);
+	font-weight: bold;
+    text-decoration: none;
+}
+
+.opcionesMenu a:hover{
+    background: rgb(26, 68, 102);
+    color: white;
+}
+
+.opcionesMenu li a:visited{
+    color: rgb(26, 68, 102);
+    text-decoration: none;
+}
+
+section{
+	width:100%;
+	background: rgb(3, 5, 30);
+    background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section article{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	padding: 2vw 0 0;
+}
+section h2{
+	color: white;
+	font-size: 2vw;
+	margin-top: 3vw;
+	margin-bottom: 1vw;
+}
+
+section article iframe{
+	width: 44%;
+	height: 30vw;
+	padding: 3vw 3%;
+}
+
+section article p{
+	width: 44%;
+	color: white;
+	padding: 4vw 3%;
+	background: url(../img/fondo3.png) no-repeat;
+	background-size: cover;
+	background-position-x: center;
+	text-shadow: 1px 1px black;
+	font-size: 1.35vw;
+}
+
+section article img{
+	width: 40%;
+	height: auto;
+	margin-bottom: 3vw;
+}
+
+.pLectura{
+	width: 94%;
+	color: white;
+	padding: 2vw 3%;
+	background: url(../img/fondo3.png) no-repeat fixed;
+	background-size: 70%;
+	background-position-x: right;
+	text-shadow: 1px 1px black;
+	font-size: 1.35vw;
+}
+
+.pContenido{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around
+}
+
+.pContenido iframe{
+	width: 43%;
+}
+
+
+.autor{
+	width: 28%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: white solid 2px;
+}
+
+.autor img{
+	width: 80%;
+	margin-top: 1vw;
+}
+
+.autor p{
+	background: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 1vw;
+	width: 90%;
+	margin-bottom: 1vw;
+}
+
+footer{
+	width:94%;
+	height: 6vw;
+	background: rgb(3, 5, 30);
+	color: white;
+	padding: 1vw 3%;
+    float: left;
+    margin-top: 20px;
+}
